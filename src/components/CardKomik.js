@@ -2,22 +2,22 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const CardKomik = ({ cover, judul, kategori, link }) => {
+const CardKomik = ({ cover, judul, kategori, link, kreator }) => {
   return (
-    <div className="md:h-[350px] md:w-[300px] h-[200px] w-[150px] rounded-md flex flex-col">
+    <div className="md:h-[500px] md:w-[300px] h-[200px] w-[150px] rounded-md flex flex-col">
       <Image
         src={cover}
-        className="md:h-[350px] h-[250px] object-cover rounded-lg"
+        className="md:h-[500px] h-[300px] object-cover rounded-lg"
         alt=""
-        width={350}
-        height={250}
+        width={300}
+        height={500}
       />
       <span className=" bg-[#fefefe] rounded-md p-2 flex flex-col">
         <h3 className="md:text-lg text-sm font-bold py-1">{judul}</h3>
         <p className="md:text-xs text-[8px] mb-2 text-center font-semibold bg-red-300 p-1 rounded-full w-fit px-2">
           {kategori}
         </p>
-        <p className="text-xs pb-2 text-slate-500">Kreator: Sella</p>
+        <p className="text-xs pb-2 text-slate-500">Kreator: {kreator}</p>
       </span>
       <span className="mx-2 bg-[#BFEEC5] w-full md:py-5 py-3 md:border-t-2 border-t-[1px] border-t-gray-300 rounded-md">
         <Link

@@ -22,12 +22,9 @@ export default function Header() {
               />
             </div>
             <div className="flex flex-col items-center">
-              <h1 className="lg:text-2xl md:text-xl text-sm font-bold">
+              <h1 className="lg:text-2xl md:text-xl text-sm font-bold text-[#006837]">
                 Komik Dewantara
               </h1>
-              {/* <h3 className="lg:text-sm text-xs font-bold">
-              Anti Bullying dan Kekerasan Seksual
-            </h3> */}
             </div>
           </Link>
         </div>
@@ -43,7 +40,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="#sejarah"
+                href="/daftar-komik"
                 className="text-lg font-bold py-2 pl-3 pr-4 cursor-pointer hover:text-[#625004]"
               >
                 Daftar Komik
