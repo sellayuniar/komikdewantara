@@ -23,7 +23,7 @@ const DaftarKomikAntiPelecehan = () => {
   }, []);
 
   return (
-    <div className="w-full h-[900px] md:h-[1400px] lg:h-[650px] flex flex-col bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-8 pt-5 py-1 lg:mt-5 flex-wrap">
+    <div className="w-full h-[900px] md:h-[1400px] lg:h-[650px] flex flex-col bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-8 pt-5 py-1 lg:mt-20 flex-wrap">
       <h1 className=" text-xl md:text-2xl font-bold ml-5 md:ml-0">
         Komik Anti Pelecehan Seksual
       </h1>

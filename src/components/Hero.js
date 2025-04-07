@@ -39,7 +39,7 @@ export default function Hero() {
         ))}
       </Carousel>
       <div className="flex absolute items-center bottom-25 right-50 bg-[#BFEEC5]/80 rounded-full p-1 drop-shadow-xl">
-        <h3 className="text-4xl font-extrabold mx-5">BACA KOMIK</h3>
+        <h3 className="text-2xl font-bold mx-5">BACA KOMIK</h3>
         <Link
           href="/daftar-komik"
           className="p-1 rounded-full shadow bg-[#00AA13] text-white hover:bg-[#00AA13]/80"
