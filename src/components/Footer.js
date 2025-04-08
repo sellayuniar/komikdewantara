@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <section className="w-full px-5 py-5 gap-2 flex flex-col justify-between items-center bg-[#EFF0F2]">
+    <section className="lg:w-full px-5 py-5 gap-2 flex flex-col justify-between items-center bg-[#EFF0F2]">
       <div className="flex justify-between items-start gap-5 mb-10 w-full">
         <div className="flex flex-col">
           <div className="flex justify-center items-center">
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col">
           <p className="font-bold">PUSAT BANTUAN</p>
-          <Link href="/about-us">FAQs</Link>
+          <Link href="/faq">FAQs</Link>
         </div>
         <div className="flex flex-col w-1/4">
           <p className="font-bold">KONTAK</p>
