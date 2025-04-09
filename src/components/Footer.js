@@ -6,8 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <section className="lg:w-full px-5 py-5 gap-2 flex flex-col justify-between items-center bg-[#EFF0F2]">
-      <div className="flex justify-between items-start gap-5 mb-10 w-full">
+    <section className="w-full px-5 py-5 gap-2 flex flex-col justify-between items-center bg-[#EFF0F2]">
+      <div className="flex md:flex-row flex-col justify-between items-start gap-5 mb-10 w-full">
         <div className="flex flex-col">
           <div className="flex justify-center items-center">
             <Image src={logo} width={100} height={100} alt="logo" />
@@ -15,7 +15,13 @@ export default function Footer() {
           </div>
           <h3>Supported By:</h3>
           <div className="flex gap-3">
-            <Image src={logoUny} width={100} height={100} alt="logo" />
+            <Image
+              src={logoUny}
+              width={100}
+              height={100}
+              className=""
+              alt="logo"
+            />
             <Image
               src={logoPPG}
               width={150}
@@ -35,7 +41,7 @@ export default function Footer() {
           <p className="font-bold">PUSAT BANTUAN</p>
           <Link href="/faq">FAQs</Link>
         </div>
-        <div className="flex flex-col w-1/4">
+        <div className="flex flex-col md:w-1/4">
           <p className="font-bold">KONTAK</p>
           <p></p>
           <p></p>
