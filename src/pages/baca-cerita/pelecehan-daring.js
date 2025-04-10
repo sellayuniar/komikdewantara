@@ -12,17 +12,17 @@ import {
 } from "firebase/firestore";
 import { useState, useEffect } from "react";
 
-const Cyberbullying = () => {
-  const [komikCyberbullying, setKomikCyberbullying] = useState([]);
+const AntiPelecehanDaring = () => {
+  const [komikAntiPelecehanDaring, setKomikAntiPelecehanDaring] = useState([]);
 
   useEffect(() => {
     const q = query(
-      collection(db, "cyberbullying"),
+      collection(db, "pelecehan-online"),
       where("id", ">", 0),
       orderBy("id")
     );
     onSnapshot(q, (snapshot) => {
-      setKomikCyberbullying(
+      setKomikAntiPelecehanDaring(
         snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id }))
       );
     });
@@ -31,11 +31,11 @@ const Cyberbullying = () => {
   return (
     <Layout>
       <div className="w-full h-[300px] md:h-[700px] flex flex-col justify-center items-center bg-[#fefefe] lg:px-32 md:px-10 mt-10 md:mt-10 mb-20 md:mb-40 md:my-5">
-        <h1 className=" text-md md:text-2xl font-bold">Cyberbullying</h1>
+        <h1 className=" text-md md:text-2xl font-bold">Pelecehan Daring</h1>
         <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 font-bold md:mb-10"></span>
         <div className="flex justify-center items-center h-[300px] w-[300px] md:h-[600px] md:w-[600px] md:mx-0">
           <Carousel autoSlide={false}>
-            {komikCyberbullying.map((s) => (
+            {komikAntiPelecehanDaring.map((s) => (
               <Image
                 src={s.gambar}
                 alt={s.judul}
@@ -52,4 +52,4 @@ const Cyberbullying = () => {
   );
 };
 
-export default Cyberbullying;
+export default AntiPelecehanDaring;

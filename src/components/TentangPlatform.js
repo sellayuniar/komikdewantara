@@ -4,7 +4,7 @@ import Image from "next/image";
 import LogoFull from "../../public/logo_komik.ico";
 const TentangPlatform = () => {
   return (
-    <div className="w-full h-[800px] md:h-[500px] flex flex-col bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-5 md:pt-10 pt-0 py-1 lg:mt-32 flex-wrap">
+    <div className="w-full h-[800px] md:h-[500px] flex flex-col bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-5 md:pt-10 pt-0 py-1 lg:mt-18 flex-wrap">
       <h1 className=" text-xl md:text-2xl font-bold ml-5 md:ml-0">
         Selengkapnya Mengenai Platform Kami
       </h1>

@@ -1,25 +1,29 @@
 import React from "react";
 import { db } from "../../config/firebase";
-import { getDocs, collection } from "firebase/firestore";
+import {
+  collection,
+  onSnapshot,
+  query,
+  where,
+  orderBy,
+} from "firebase/firestore";
 import { useState, useEffect } from "react";
 import CardKomik from "./CardKomik";
 
 const DaftarKomikAntiBully = () => {
   const [daftarKomikAntiBullying, setDaftarKomikAntiBullying] = useState([]);
-  const collectionRef = collection(db, "daftar-komik-anti-bullying");
 
   useEffect(() => {
-    const getDaftarKomikAntiBullying = async () => {
-      const data = await getDocs(collectionRef);
-      const filteredData = data.docs.map((doc) => ({
-        ...doc.data(),
-        id: doc.id,
-      }));
-      setDaftarKomikAntiBullying(filteredData);
-    };
-
-    getDaftarKomikAntiBullying();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const q = query(
+      collection(db, "daftar-komik-anti-bullying"),
+      where("id", ">", 0),
+      orderBy("id")
+    );
+    onSnapshot(q, (snapshot) => {
+      setDaftarKomikAntiBullying(
+        snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id }))
+      );
+    });
   }, []);
 
   return (

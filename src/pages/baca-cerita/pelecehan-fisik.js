@@ -41,8 +41,8 @@ const AntiPelecehanFisik = () => {
               <Image
                 src={s.gambar}
                 alt={s.judul}
-                width={300}
-                height={300}
+                width={600}
+                height={600}
                 className="object-fit rounded-md h-[300px] w-[300px] md:h-[600px] md:w-[600px]"
                 key={s.id}
               />
