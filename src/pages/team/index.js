@@ -37,7 +37,7 @@ const Team = () => {
             className="w-2/5"
           />
           <div className="flex flex-col w-3/5 gap-3">
-            <h4 className="text-xl font-bold">Dosen Pembimbing</h4>
+            <h4 className="text-xl font-bold">Dosen Pengampu</h4>
             <h3 className="text-xl font-bold">Drs. Muhammad Munir, M.Pd</h3>
 
             <div className="flex flex-col gap-2 mt-3">
@@ -62,14 +62,14 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col my-10">
+        <div className="flex flex-col my-20">
           <h1 className=" text-xl md:text-2xl font-bold ml-5 md:ml-0">
             Team Member
           </h1>
           <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 font-bold ml-5 md:ml-0"></span>
-          <div className="flex">
+          <div className="flex flex-wrap h-[1200px] gap-3">
             {daftarTeamMember.map((data) => (
-              <div className="flex flex-col" key={data.id}>
+              <div className="flex flex-col gap-2" key={data.id}>
                 <Image
                   src={data.gambar}
                   width={250}
@@ -77,12 +77,14 @@ const Team = () => {
                   alt="foto"
                   className="rounded-md"
                 />
-                <p>{data.jabatan}</p>
+                <p className="font-bold">{data.jabatan}</p>
                 <p>{data.nama}</p>
                 <p>NIM: {data.nim}</p>
-                <p className="flex gap-2 items-center">
+                <p className="flex gap-1 items-center">
                   <Instagram size={20} />
-                  <a href={data.instagram}>@{data.username}</a>
+                  <a href={data.instagram} className="hover:text-[#006837]">
+                    @{data.username}
+                  </a>
                 </p>
               </div>
             ))}
