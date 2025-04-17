@@ -23,11 +23,6 @@ const faqs = [
       "Tentu saja. Komik ini dapat digunakan sebagai media pendukung pembelajaran, terutama dalam penguatan pendidikan karakter, literasi digital, serta projek Penguatan Profil Pelajar Pancasila.",
   },
   {
-    question: "Apakah komik dapat diunduh?",
-    answer:
-      "Beberapa judul komik tersedia dalam format PDF dan dapat diunduh secara gratis. Silakan kunjungi halaman masing-masing komik untuk informasi ketersediaan unduhan.",
-  },
-  {
     question:
       "Apa yang harus dilakukan jika mengalami atau mengetahui kasus bullying atau kekerasan seksual?",
     answer:
@@ -38,20 +33,11 @@ const faqs = [
     answer:
       "Bisa. Jika Anda memiliki kemampuan menggambar, menulis cerita, atau ingin menyampaikan ide terkait isu bullying dan kekerasan seksual, silakan hubungi tim kami melalui halaman kontak untuk informasi lebih lanjut mengenai kolaborasi.",
   },
-  {
-    question: "Apakah tersedia versi inklusif atau dalam bahasa daerah?",
-    answer:
-      "Kami sedang mengembangkan versi inklusif (misalnya: audio komik, narasi teks) serta versi dalam bahasa daerah agar konten ini dapat diakses oleh lebih banyak peserta didik dari berbagai latar belakang.",
-  },
+
   {
     question: "Bagaimana cara saya ikut mendukung kampanye ini?",
     answer:
       "Anda dapat mendukung kampanye ini dengan cara membagikan komik ke media sosial, berdiskusi bersama teman-teman, mengikuti pelatihan atau kegiatan yang kami selenggarakan, serta menjadi bagian dari komunitas anti-bullying di sekolah Anda.",
-  },
-  {
-    question: "Bagaimana cara menghubungi pengelola website ini?",
-    answer:
-      "Silakan kunjungi halaman Hubungi Kami untuk menyampaikan pertanyaan, saran, atau pesan lainnya. Kami sangat menghargai setiap masukan dari pembaca.",
   },
 ];
 

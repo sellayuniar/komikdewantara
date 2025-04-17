@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const CardKomik = ({ cover, judul, kategori, link, kreator }) => {
   return (
-    <div className="md:h-[500px] md:w-[300px] h-[200px] w-[150px] rounded-md flex flex-col">
+    <div className="md:h-[500px] md:w-[300px] h-[200px] w-[200px] rounded-md flex flex-col">
       <Image
         src={cover}
-        className="md:h-[400px] h-[300px] object-fit rounded-lg"
+        className="md:h-[300px] md:w-[300px] h-[200px] w-[200px] object-cover rounded-lg"
         alt=""
         width={300}
-        height={400}
+        height={300}
       />
       <span className=" bg-[#fefefe] rounded-md p-2 flex flex-col">
         <h3 className="md:text-lg text-sm font-bold py-1">{judul}</h3>
