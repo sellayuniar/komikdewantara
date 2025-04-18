@@ -19,7 +19,7 @@ export default function Footer() {
             />
             <h2 className="font-bold text-[#006837]">KOMIK DEWANTARA</h2>
           </div>
-          <h3 className="text-xs md:text-md">Supported By:</h3>
+          <h3 className="text-xs md:text-base">Supported By:</h3>
           <div className="flex gap-3">
             <Image
               src={logoUny}

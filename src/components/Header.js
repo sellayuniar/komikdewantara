@@ -13,7 +13,7 @@ export default function Header() {
 
       <nav className="w-full h-[70px] lg:h-24 flex bg-[#fefefe] lg:px-32 md:px-10 md:py-5 py-1 items-center justify-between">
         <div className="mr-32">
-          <Link href="/" className="flex items-center cursor-pointer">
+          <Link href="/" className="flex items-center cursor-pointer w-full">
             <div>
               <Image
                 src={logo}
@@ -21,8 +21,8 @@ export default function Header() {
                 className="lg:w-[100px] lg:h-[100px] h-[60px] w-[60px] "
               />
             </div>
-            <div className="flex flex-col items-center">
-              <h1 className="lg:text-2xl md:text-xl text-sm font-bold text-[#006837]">
+            <div className="text-center">
+              <h1 className="lg:text-2xl md:text-xl text-base font-bold text-[#006837]">
                 Komik Dewantara
               </h1>
             </div>

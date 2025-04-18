@@ -34,8 +34,8 @@ const AntiPelecehanVerbal = () => {
         <h1 className=" text-md md:text-2xl font-bold">
           Pelecehan Seksual Verbal
         </h1>
-        <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 font-bold md:mb-10"></span>
-        <div className="flex justify-center items-center h-[300px] w-[300px] md:h-[500px] md:w-[500px] md:mx-0">
+        <span className="border-b-stone-200 border-b-[1px] w-32 h-3 font-bold mb-10"></span>
+        <div className="flex justify-center items-center h-[350px] w-[350px] md:h-[500px] md:w-[500px] md:mx-0">
           <Carousel autoSlide={false}>
             {komikAntiPelecehanVerbal.map((s) => (
               <Image
@@ -43,7 +43,7 @@ const AntiPelecehanVerbal = () => {
                 alt={s.judul}
                 width={600}
                 height={600}
-                className="object-fit rounded-md h-[300px] w-[300px] md:h-[500px] md:w-[500px]"
+                className="object-fit rounded-md h-[350px] w-[350px] md:h-[500px] md:w-[500px]"
                 key={s.id}
               />
             ))}

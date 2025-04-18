@@ -4,13 +4,13 @@ import Image from "next/image";
 import LogoFull from "../../public/logo_komik.ico";
 const TentangPlatform = () => {
   return (
-    <div className="w-full h-[800px] lg:h-[500px] flex flex-col bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-5 md:pt-10 pt-0 py-1 lg:mt-18 mt-10 flex-wrap">
+    <div className="w-full h-[800px] lg:h-[600px] xl:h-[500px] flex flex-col justify-center items-center md:justify-start md:items-start bg-[#fefefe] lg:px-44 xl:px-32 md:px-10 md:py-5 lg:py-5 md:pt-10 pt-0 py-1 lg:mt-18 mt-10 flex-wrap md:mb-60 mb-20">
       <h1 className=" text-md md:text-2xl font-bold ml-5 md:ml-0">
         Selengkapnya Mengenai Platform Kami
       </h1>
       <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 font-bold ml-5 md:ml-0"></span>
       <div className="flex justify-center items-center lg:flex-row lg:justify-around mx-2 md:mx-0 md:gap-20 gap-5 flex-col-reverse">
-        <div className="lg:w-3/4 text-sm/6 md:text-base/6 items-center justify-center">
+        <div className="lg:w-3/4 text-sm/6 md:text-lg/8 items-center justify-center">
           Platform Komik Dewantara hadir sebagai solusi edukatif dan kreatif
           dalam menanggapi maraknya kasus bullying dan kekerasan seksual di
           lingkungan sekolah. Terinspirasi dari keprihatinan terhadap tingginya

@@ -6,13 +6,13 @@ import LogoFull from "../../../public/logo_komik.ico";
 const aboutUs = () => {
   return (
     <Layout>
-      <div className="w-full flex flex-col bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-8 pt-10 py-1 lg:mt-5 flex-wrap mb-10">
-        <h1 className=" text-xl md:text-2xl font-bold ml-5 md:ml-0">
+      <div className="w-full flex flex-col bg-[#fefefe] lg:px-32 px-10 md:py-5 lg:py-8 pt-10 py-1 lg:mt-5 flex-wrap mb-44 justify-center items-center md:justify-start">
+        <h1 className=" text-base md:text-2xl font-bold ml-5 md:ml-0">
           Tentang Kami
         </h1>
-        <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 font-bold ml-5 md:ml-0"></span>
-        <div className="flex justify-between items-start lg:flex-row flex-col-reverse lg:justify-start gap-10">
-          <div className="flex flex-col gap-3 w-3/4">
+        <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-20 font-bold ml-5 md:ml-0"></span>
+        <div className="flex justify-between items-center flex-col-reverse lg:justify-start gap-10">
+          <div className="flex flex-col gap-3 text-sm md:text-base">
             <p>
               Platform Komik Dewantara hadir sebagai solusi edukatif dan kreatif
               dalam menanggapi maraknya kasus bullying dan kekerasan seksual di
@@ -47,8 +47,14 @@ const aboutUs = () => {
               mereka.
             </p>
           </div>
-          <div className="w-2/4 -mt-10">
-            <Image src={LogoFull} alt="Logo" width={300} height={300} />
+          <div className=" -mt-10">
+            <Image
+              src={LogoFull}
+              alt="Logo"
+              width={300}
+              height={300}
+              className="w-[150px] h-[150px] md:w-[300px] md:h-[300px]"
+            />
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ const faqs = [
 const faq = () => {
   return (
     <Layout>
-      <div className="w-full flex flex-col bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-8 pt-10 py-1 lg:mt-5 flex-wrap mb-10">
+      <div className="w-full flex flex-col bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-8 pt-10 py-1 lg:mt-5 flex-wrap mb-44">
         <h1 className=" text-xl md:text-2xl font-bold ml-5 md:ml-0">
           Frequent Asked Questions (FAQs)
         </h1>

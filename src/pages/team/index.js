@@ -27,7 +27,7 @@ const Team = () => {
 
   return (
     <Layout>
-      <div className="w-full flex flex-col bg-[#fefefe] lg:px-32 px-10 md:py-5 lg:py-8 pt-10 py-1 lg:mt-5 mb-10 lg:h-[1800px] md:h-[2000px] h-[3800px]">
+      <div className="w-full flex flex-col bg-[#fefefe] lg:px-32 px-10 md:py-5 lg:py-8 pt-10 py-1 lg:mt-5 mb-10 md:h-[2000px] xl:h-[2300px]">
         <div className="flex justify-between flex-col md:flex-row gap-5">
           <div className="md:w-1/5 items-center justify-center">
             <Image
@@ -44,7 +44,7 @@ const Team = () => {
               Drs. Muhammad Munir, M.Pd
             </h3>
 
-            <div className="flex flex-col gap-2 mt-3 text-xs">
+            <div className="flex flex-col gap-2 mt-3 text-xs md:text-base">
               <p>
                 Saya memberikan apresiasi yang tinggi terhadap pelaksanaan
                 proyek kepemimpinan yang mengangkat tema Sosialisasi
@@ -70,8 +70,8 @@ const Team = () => {
           <h1 className=" text-base md:text-2xl font-bold ml-5 md:ml-0">
             Team Member
           </h1>
-          <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 font-bold ml-5 md:ml-0"></span>
-          <div className="flex flex-wrap gap-3 gap-y-5">
+          <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-10 font-bold ml-5 md:ml-0"></span>
+          <div className="flex flex-wrap gap-3 gap-y-5 justify-between px-3">
             {daftarTeamMember.map((data) => (
               <div className="flex flex-col gap-2" key={data.id}>
                 <Image
@@ -79,16 +79,16 @@ const Team = () => {
                   width={250}
                   height={250}
                   alt="foto"
-                  className="rounded-md w-[150px] h-[150px] md:w-[200px] md:h-[200px]"
+                  className="rounded-md w-[100px] h-[100px] md:w-[200px] md:h-[200px] xl:w-[300px] xl:h-[300px]"
                 />
-                <p className="font-bold text-sm md:text-base">{data.jabatan}</p>
-                <p className="text-sm md:text-base">{data.nama}</p>
+                <p className="font-bold text-xs md:text-base">{data.jabatan}</p>
+                <p className="text-xs md:text-base">{data.nama}</p>
 
                 <p className="flex gap-1 items-center">
-                  <Instagram size={20} />
+                  <Instagram size={15} />
                   <a
                     href={data.instagram}
-                    className="text-blue-500 hover:text-[#006837] text-sm md:text-base"
+                    className="text-blue-500 hover:text-[#006837] text-xs md:text-base"
                   >
                     @{data.username}
                   </a>
