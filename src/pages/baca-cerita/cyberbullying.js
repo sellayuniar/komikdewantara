@@ -30,10 +30,10 @@ const Cyberbullying = () => {
 
   return (
     <Layout>
-      <div className="w-full h-[300px] md:h-[700px] flex flex-col justify-center items-center bg-[#fefefe] lg:px-32 md:px-10 mt-10 md:mt-10 mb-20 md:mb-40 md:my-5">
+      <div className="w-full h-[500px] md:h-[1000px] flex flex-col items-center bg-[#fefefe] lg:px-32 md:px-10 mt-10 mb-20 md:my-5">
         <h1 className=" text-md md:text-2xl font-bold">Cyberbullying</h1>
         <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 font-bold md:mb-10"></span>
-        <div className="flex justify-center items-center h-[300px] w-[300px] md:h-[600px] md:w-[600px] md:mx-0">
+        <div className="flex justify-center items-center h-[300px] w-[300px] md:h-[500px] md:w-[500px] md:mx-0">
           <Carousel autoSlide={false}>
             {komikCyberbullying.map((s) => (
               <Image
@@ -41,7 +41,7 @@ const Cyberbullying = () => {
                 alt={s.judul}
                 width={600}
                 height={600}
-                className="object-fit rounded-md h-[300px] w-[300px] md:h-[600px] md:w-[600px]"
+                className="object-fit rounded-md h-[300px] w-[300px] md:h-[500px] md:w-[500px]"
                 key={s.id}
               />
             ))}

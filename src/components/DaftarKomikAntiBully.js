@@ -27,12 +27,12 @@ const DaftarKomikAntiBully = () => {
   }, []);
 
   return (
-    <div className="w-full h-[900px] md:h-[1400px] lg:h-[650px] flex flex-col bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-8 pt-10 py-1 lg:mt-5 flex-wrap">
+    <div className="w-full h-fit lg:h-[700px] flex flex-col md:justify-start md:items-start justify-center items-center bg-[#fefefe] lg:px-32 md:px-10 md:py-5 lg:py-8 pt-10 py-1 flex-wrap mt-10">
       <h1 className="text-md md:text-2xl font-bold ml-5 md:ml-0">
         Komik Anti Bullying
       </h1>
       <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 font-bold ml-5 md:ml-0"></span>
-      <div className="flex justify-start items-start flex-row flex-wrap lg:justify-around h-[700px] md:h-[700px] lg:h-[500px] mx-1 md:mx-0 gap-3 gap-y-[100px]">
+      <div className="flex md:justify-between md:items-start justify-center items-center flex-row flex-wrap lg:justify-around h-[1400px] md:h-[1000px] lg:h-[500px] mx-1 md:mx-0 gap-3 -mt-[60px] md:-mt-0 gap-y-5 md:gap-y-10 mb-16 w-full">
         {daftarKomikAntiBullying.map((data) => (
           <CardKomik
             cover={data.cover}
