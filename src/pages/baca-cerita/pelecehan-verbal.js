@@ -37,7 +37,7 @@ const AntiPelecehanVerbal = () => {
         <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 font-bold md:mb-10"></span>
         <div className="flex justify-center items-center h-[300px] w-[300px] md:h-[500px] md:w-[500px] md:mx-0">
           <Carousel autoSlide={false}>
-            {AntiPelecehanVerbal.map((s) => (
+            {komikAntiPelecehanVerbal.map((s) => (
               <Image
                 src={s.gambar}
                 alt={s.judul}
