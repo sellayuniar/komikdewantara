@@ -17,7 +17,7 @@ const AntiPelecehanDaring = () => {
 
   useEffect(() => {
     const q = query(
-      collection(db, "pelecehan-online"),
+      collection(db, "pelecehan-digital"),
       where("id", ">", 0),
       orderBy("id")
     );

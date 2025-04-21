@@ -9,7 +9,7 @@ const legal = () => {
           Legal Information
         </h1>
         <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-10 font-bold ml-5 md:ml-0"></span>
-        <div className="flex justify-start items-start flex-col flex-wrap text-sm lg:justify-start gap-5">
+        <div className="flex justify-start items-start flex-col flex-wrap text-sm md:text-base lg:justify-start gap-5">
           <div>
             <b>Landasan Hukum :</b>
             <ol type="1" className="list-disc list-inside">
