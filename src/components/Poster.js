@@ -27,7 +27,7 @@ const DaftarPoster = () => {
   }, []);
 
   return (
-    <div className="w-full h-[2000px] md:h-[2400px] xl:h-[900px] flex flex-col md:justify-start md:items-start justify-start items-center bg-[#fefefe] lg:px-44 xl:px-32 md:px-10 md:py-5 lg:py-8 pt-10 py-1  md:mt-10 mb-10 md:mb-0 xl:-mt-5">
+    <div className="w-full h-[2000px] md:h-[2400px] xl:h-[900px] flex flex-col md:justify-start md:items-start justify-start items-center bg-[#fefefe] lg:px-44 xl:px-32 md:px-10 md:py-5 lg:py-8 pt-10 py-1  md:mt-10 mb-10 md:mb-0 xl:mt-10">
       <h1 className="text-md md:text-2xl font-bold ml-5 md:ml-0">
         Pemenang Lomba Poster
       </h1>
