@@ -27,7 +27,7 @@ const DaftarKomikKPAI = () => {
   }, []);
 
   return (
-    <div className="w-full h-[700px] lg:h-[800px] xl:h-[700px] flex flex-col md:justify-start md:items-start justify-center items-center bg-[#fefefe] lg:px-44 xl:px-32 md:px-10 md:py-5 lg:py-8 pt-10 py-1 flex-wrap mt-10 mb-10 md:mb-0">
+    <div className="w-full h-[700px] lg:h-[800px] xl:h-[700px] flex flex-col md:justify-start md:items-start justify-center items-center bg-[#fefefe] lg:px-44 xl:px-32 md:px-10 md:py-5 lg:py-8 pt-10 py-1 flex-wrap mt-10 mb-0 md:mb-0">
       <h1 className="text-md md:text-2xl font-bold ml-5 md:ml-0">
         Komik Cyberbullying Lapor KPAI
       </h1>

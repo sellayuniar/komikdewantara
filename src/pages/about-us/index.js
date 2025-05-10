@@ -28,17 +28,14 @@ const aboutUs = () => {
               tentang berbagai bentuk bullying, dampaknya, serta langkah-langkah
               pencegahan yang bisa dilakukan oleh peserta didik. Tak hanya itu,
               platform ini juga menyampaikan informasi penting mengenai
-              kekerasan seksual, hak perlindungan diri, dan bagaimana peserta
-              didik dapat berani berbicara serta mencari bantuan.
+              kekerasan seksual dan bagaimana peserta didik dapat berani
+              berbicara serta mencari bantuan.
             </p>
             <p>
               Melalui visual yang menarik dan narasi yang sederhana namun
               menyentuh, Komik Dewantara bertujuan menanamkan nilai-nilai
               empati, keberanian, dan kesadaran akan pentingnya menciptakan
-              lingkungan sekolah yang aman dan suportif. Platform ini juga
-              dilengkapi dengan fitur lomba poster kampanye, sebagai wadah
-              partisipasi aktif peserta didik dalam menyuarakan pesan
-              anti-bullying dan anti-kekerasan seksual.
+              lingkungan sekolah yang aman dan suportif.
             </p>
             <p>
               Komik Dewantara bukan hanya sekadar media digital, tetapi juga
