@@ -34,15 +34,15 @@ export default function Dokumentasi() {
       <span className="border-b-stone-200 border-b-[1px] w-32 h-3 mb-5 lg:mb-0 xl:mb-5 font-bold ml-5 md:ml-0"></span>
 
       <div className="flex flex-col items-center justify-center mt-5 w-full rounded-xl">
-        <div className="w-[300px] md:w-[600px]">
+        <div className="w-[300px] md:w-[500px] md:h-[600px]">
           <Carousel autoSlide={false} autoSlideInterval={5000}>
             {fotoArtikel.map((s) => (
               <Image
                 src={s.gambar}
                 alt={s.judul}
                 className="object-fit w-full rounded-xl"
-                width={500}
-                height={500}
+                width={600}
+                height={600}
                 key={s.id}
               />
             ))}
